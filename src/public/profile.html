@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>profile</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+      integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    </head>
+  <body>
+
+    <nav class="navbar navbar-expand">
+      <a class="navbar-brand nav-item nav-link active" >NFT</a>
+      <div class="container">
+        <ul class="navbar-nav mx-auto">
+        
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle mr-2" href="#" data-toggle="dropdown" style="color: white;">
+              <i class="fa fa-user" aria-hidden="true"></i><span class="badge badge-dark"></span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <form id="logout-form" action="/logout" method="GET">
+                <button type="submit" class="dropdown-item">Logout</button>
+              </form>
+            </div>
+          </li>
+          <li class="nav-item ml-2">
+            <a class="nav-link" href="#" style="color: white;">
+              <i class="fa fa-search" aria-hidden="true"></i><span class="badge badge-dark"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+        <hr>
+
+        <h2 style="font-weight: bolder; font-size: small; text-align: left;"> <a href="./login.html" style="color: orange">Main</a> > My Profile </h2>
+
+        <hr>
+        <br>
+        <br>
+
+      <h2>TITO EL PINGUINO</h2>
+      <br>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="https://bafybeiar3cyuz364c4bttpvwzsyaht6fd5cqsadp3dbwgdq7bx3dlrggy4.ipfs.nftstorage.link/" alt="Imagen">
+          </div>
+          <div class="col-md-6">
+            <h2>Metadata de Tito</h2>
+            <p>{
+                "name": "Tito el pinguino",
+                "symbol": "NFTPro",
+                "description": "Tito el pinguino nació un 29 de marzo en una mañana llena de penumbras",
+                "seller_fee_basis_points": 1000,
+                "image": "https://arweave.net/--56hNXqVLfji9q_qNfUowCv26UVlQlbv0jFfRogj6s?ext=png",
+              "imageURL":"https://bafybeiar3cyuz364c4bttpvwzsyaht6fd5cqsadp3dbwgdq7bx3dlrggy4.ipfs.nftstorage.link/",
+                "attributes": [
+                  {
+                    "trait_type": "Feet",
+                    "value": "Cute"
+                  },
+                  {
+                    "trait_type": "Status",
+                    "value": "Tito el pinguino"
+                  }
+                ],
+                "properties": {
+                  "files": [
+                    {
+                      "uri": "https://arweave.net/--56hNXqVLfji9q_qNfUowCv26UVlQlbv0jFfRogj6s?ext=png",
+                      "type": "image/png"
+                    }
+                  ],
+                  "category": "image",
+                  "creators": [
+                    {
+                      "address": "JFjDUbODEEnlFFzznbWMTbh6cbgz86e3QtkXbiRY1385dnCAAN3UKup9MspawfAF",
+                      "verified": true,
+                      "share": 100
+                    }
+                  ]
+                }
+              }</p>
+              <br>
+              <form action="https://nftstorage.link/ipfs/bafybeicjovugvjhnch2wj327jpkaoexs42xuc72xicthxkprxrtvskkiei" method="GET">
+                <label for="nombre">NFT URL:</label>
+                <input type="text" id="nombre" name="nombre" value="https://nftstorage.link/ipfs/bafybeicjovugvjhnch2wj327jpkaoexs42xuc72xicthxkprxrtvskkiei" required>
+                <button type="submit">GET IT</button>
+              </form>
+          </div>
+        </div>
+      </div>
+      
+    
+
+
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
